@@ -1,6 +1,8 @@
 package io.iic.helloworld;
 
 
+import android.util.Log;
+
 public class Calculator implements CalculatorService {
 
     private CalculatorService service;
@@ -13,6 +15,7 @@ public class Calculator implements CalculatorService {
 
     @Override
     public double add(double input1, double input2) {
+        Log.d(Calculator.class.getCanonicalName(), "This is addition");
         return (input1 + input2);
     }
 
