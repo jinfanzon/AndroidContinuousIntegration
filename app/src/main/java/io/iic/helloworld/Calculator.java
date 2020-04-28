@@ -21,7 +21,7 @@ public class Calculator implements CalculatorService {
 
     @Override
     public double subtract(double input1, double input2) {
-        Log.d(Calculator.class.getCanonicalName(), "This is substract");
+        Log.d(Calculator.class.getCanonicalName(), "This is substract operation");
         return (input1 - input2);
     }
 
