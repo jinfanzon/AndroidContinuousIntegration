@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity implements CalculatorService {
+public class MainActivity extends AppCompatActivity{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,26 +53,4 @@ public class MainActivity extends AppCompatActivity implements CalculatorService
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public double add(double input1, double input2) {
-        return (input1 + input2);
-    }
-
-    @Override
-    public double subtract(double input1, double input2) {
-        return (input1 - input2);
-    }
-
-    @Override
-    public double multiply(double input1, double input2) {
-        return 0;
-    }
-
-    @Override
-    public double divide(double input1, double input2) {
-        if(input2==0)
-            return -1;
-        else
-            return (input1 / input2);
-    }
 }
