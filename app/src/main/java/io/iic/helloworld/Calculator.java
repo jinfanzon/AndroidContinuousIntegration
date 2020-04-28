@@ -27,7 +27,7 @@ public class Calculator implements CalculatorService {
 
     @Override
     public double multiply(double input1, double input2) {
-        Log.d(Calculator.class.getCanonicalName(), "This is multiply");
+        Log.d(Calculator.class.getCanonicalName(), "This is multiply operation");
         return 0;
     }
 
