@@ -15,7 +15,7 @@ public class Calculator implements CalculatorService {
 
     @Override
     public double add(double input1, double input2) {
-        Log.d(Calculator.class.getCanonicalName(), "This is addition operation");
+        Log.d(Calculator.class.getCanonicalName(), "This is addition");
         return (input1 + input2);
     }
 
